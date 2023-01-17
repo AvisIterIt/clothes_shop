@@ -1,0 +1,34 @@
+[
+	{
+		"id": 1,
+		"title": "Носки",
+		"itemsInBox": 6,
+		"weight": 180,
+		"price": 600,
+		"imgSrc": "socks.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Футболки",
+		"itemsInBox": 1,
+		"weight": 205,
+		"price": 750,
+		"imgSrc": "t-shirt.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Штаны",
+		"itemsInBox": 1,
+		"weight": 280,
+		"price": 2000,
+		"imgSrc": "Trousers.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Кофты",
+		"itemsInBox": 1,
+		"weight": 390,
+		"price": 2400,
+		"imgSrc": "jacket.jpg"
+	}
+]
