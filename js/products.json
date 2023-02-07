@@ -30,5 +30,21 @@
 		"weight": 390,
 		"price": 2400,
 		"imgSrc": "jacket.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Кофты",
+		"itemsInBox": 1,
+		"weight": 390,
+		"price": 2400,
+		"imgSrc": "jacket.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Кофты",
+		"itemsInBox": 1,
+		"weight": 390,
+		"price": 2400,
+		"imgSrc": "jacket.jpg"
 	}
 ]

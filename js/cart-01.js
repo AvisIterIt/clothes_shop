@@ -16,7 +16,7 @@ window.addEventListener('click', function (event) {
 			itemsInBox: card.querySelector('[data-items-in-box]').innerText,
 			weight: card.querySelector('.price__weight').innerText,
 			price: card.querySelector('.price__currency').innerText,
-			counter: card.querySelector('[data-counter]').innerText,
+			counter: card.getEltmentsByTagsName('span').innerText,
 		};
 
 		// Собранные данные подставим в шаблон для товара в корзине
@@ -42,8 +42,18 @@ window.addEventListener('click', function (event) {
 												<div class="price__currency">${productInfo.price}</div>
 											</div>
 
+											<!-- cart-item__color -->
+										<div>
+											<p>Цвета:</p>
+											<button>Белый</button>
+											<button>Чёрный</button>
+											<button>Синий</button>
+										</div>
+										<!--// cart-item__color -->
+
 										</div>
 										<!-- // cart-item__details -->
+										
 
 									</div>
 								</div>

@@ -216,3 +216,28 @@ img {
 .none {
 	display: none;
 }
+.color-list{
+	font-family: 'Merriweather', serif;
+	background: #f2ede7;
+	border-radius: 8px;
+	width: 100%;
+	display: flex;
+	font-size: 15px;
+	height: 30px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.color-al{
+	width: 100%;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.color-al:hover {
+    background: #eb5a1e;
+    color: #FFF;
+}

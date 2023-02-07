@@ -38,7 +38,18 @@ function renderProducts(productsArray) {
 									</div>
 								</div>
 
-								<button data-cart type="button" class="btn btn-block btn-outline-warning">
+								<!-- cart-item__color -->
+								<div class="color-wrapper">
+								<p>Цвет: <span class="color-counter" data-counter>Выберите цвет</span></p>
+									<div class="color-list">
+										<div class="color-al" data-action="left">Белый</div>
+										<div class="color-al" data-action="center">Чёрный</div>
+										<div class="color-al" data-action="right">Синий</div>
+									</div>
+								</div>
+								<!--// cart-item__color -->
+
+								<button data-cart type="button" disabled class="btn btn-block btn-outline-warning">
 									+ в корзину
 								</button>
 

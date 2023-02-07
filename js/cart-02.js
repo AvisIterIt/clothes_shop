@@ -8,7 +8,7 @@ window.addEventListener('click', function (event) {
 
 		// Находим карточку с товаром, внутри котрой был совершен клик
 		const card = event.target.closest('.card');
-
+		
 		// Собираем данные с этого товара и записываем их в единый объект productInfo
 		const productInfo = {
 			id: card.dataset.id,
@@ -18,16 +18,18 @@ window.addEventListener('click', function (event) {
 			weight: card.querySelector('.price__weight').innerText,
 			price: card.querySelector('.price__currency').innerText,
 			counter: card.querySelector('[data-counter]').innerText,
+			color: card.querySelector('.color-counter').innerText,
 		};
 
 		// Проверять если ли уже такой товар в корзине
 		const itemInCart = cartWrapper.querySelector(`[data-id="${productInfo.id}"]`);
-
+		//const itemInColor = cartWrapper.querySelector(`[data-action="${productInfo.color}"]`);
+		//console.log(itemInColor)
 		// Если товар есть в корзине
-		if (itemInCart) {
-			const counterElement = itemInCart.querySelector('[data-counter]');
-			counterElement.innerText = parseInt(counterElement.innerText) + parseInt(productInfo.counter);
-		} else {
+		//if (itemInCart) {
+			// const counterElement = itemInCart.querySelector('[data-counter]');
+			// counterElement.innerText = parseInt(counterElement.innerText) + parseInt(productInfo.counter);
+		//} else {
 			// Если товара нет в корзине
 
 			// Собранные данные подставим в шаблон для товара в корзине
@@ -54,7 +56,16 @@ window.addEventListener('click', function (event) {
 											</div>
 
 										</div>
+
+										<!-- cart-item__color -->
+										<div class="color-wrapper">
+											<p>Цвет: <span class="color-counter" data-counter>${productInfo.color}</span></p>
+										</div>
+										<!--// cart-item__color -->
+										
 										<!-- // cart-item__details -->
+
+										
 
 									</div>
 								</div>
@@ -62,7 +73,7 @@ window.addEventListener('click', function (event) {
 
 			// Отобразим товар в корзине
 			cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
-		}
+		//}
 
 		// Сбрасываем счетчик добавленного товара на "1"
 		card.querySelector('[data-counter]').innerText = '1';
