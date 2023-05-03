@@ -1,0 +1,66 @@
+[
+	{
+		"id": 1,
+		"title": "Носки \"Nicenonice\"",
+		"itemsInBox": 6,
+		"weight": 180,
+		"price": 600,
+		"imgSrc": "socks.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Футболка \"Olivetti\"",
+		"itemsInBox": 1,
+		"weight": 205,
+		"price": 750,
+		"imgSrc": "t-shirt.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Джинсы \"DOLPHIN\"",
+		"itemsInBox": 1,
+		"weight": 280,
+		"price": 2100,
+		"imgSrc": "Jeans.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Шорты \"LAINA\"",
+		"itemsInBox": 1,
+		"weight": 390,
+		"price": 1900,
+		"imgSrc": "shorts.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Юбка-шорты \"Kickers\"",
+		"itemsInBox": 1,
+		"weight": 390,
+		"price": 5000,
+		"imgSrc": "skirt.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Шорты \"Kickers\"",
+		"itemsInBox": 1,
+		"weight": 390,
+		"price": 3500,
+		"imgSrc": "shorts2.jpg"
+	},
+	{
+		"id": 7,
+		"title": "Рубашка \"VKOMODE\" ",
+		"itemsInBox": 1,
+		"weight": 390,
+		"price": 8000,
+		"imgSrc": "Shirt.jpg"
+	},
+	{
+		"id": 8,
+		"title": "Платье \"IDI ALEN\"",
+		"itemsInBox": 1,
+		"weight": 390,
+		"price": 4500,
+		"imgSrc": "dress.jpg"
+	}
+]
